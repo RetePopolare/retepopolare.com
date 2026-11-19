@@ -15,7 +15,7 @@ window.RP_PERSONE = {
     { scheda: "assets/cards/giovanati.jpg",  nome: "Deborah Giovanati",      ruolo: "Direttivo",                instagram: "" }
   ],
   staff: [
-    { scheda: "assets/cards/dotti.jpg", nome: "Emanuela Dotti",  ruolo: "Capo Staff",                          instagram: "" },
+    { scheda: "assets/cards/dotti-2026-11.jpg", nome: "Emanuela Dotti",  ruolo: "Capo Staff",                          instagram: "" },
     { scheda: "assets/cards/mina.jpg",  nome: "Guglielmo Mina",  ruolo: "Responsabile della Redazione culturale", instagram: "" },
     { scheda: "assets/cards/rossi.jpg", nome: "Federico Rossi",  ruolo: "Referente de La Stoccata",             instagram: "" }
   ]
