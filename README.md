@@ -25,6 +25,10 @@ Sito statico: si carica così com'è su qualunque hosting (anche nella cartella 
 
 `pubblica: false` tiene un evento nascosto finché non lo si vuole pubblicare.
 
+## Regola per i link (dal 19/11/2026)
+
+Nel sito, su WhatsApp e nelle newsletter si usano solo **link diretti** (per esempio `https://forms.gle/...`), mai link accorciati con Bitly. Dal telefono Bitly mostra una pagina di passaggio con pubblicità ingannevoli («Verifica il tuo account», «Apri») prima di arrivare al modulo.
+
 ## Aggiornare i Coordinamenti
 
 In `data/coordinamenti.js`: quando un'Assemblea elegge, cambiare `stato` in `"eletto"`, aggiungere `eletto` (data) e `coordinatore`. Un nuovo Coordinamento si aggiunge copiando un blocco; per i comunali servono anche `lat` e `lon`.

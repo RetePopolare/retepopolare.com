@@ -31,7 +31,7 @@ window.RP_EVENTI = [
       "Modera Massimiliano Bombonati — Segretario generale di Rete Popolare"
     ],
     immagine: "assets/eventi/2026-11-24-milano.jpg",
-    iscrizione: "https://bit.ly/MILANORP"
+    iscrizione: "https://forms.gle/5NZw1YJVbdtVx4qC6"
   },
   {
     data: "2026-11-18", ora: "18:15",
@@ -48,7 +48,7 @@ window.RP_EVENTI = [
       "Modera Lucio Bergamaschi — giornalista"
     ],
     immagine: "assets/eventi/2026-11-18-varese.jpg",
-    iscrizione: "https://bit.ly/VARESERP"
+    iscrizione: "https://forms.gle/m6YhXJDAQoRFgi5M7"
   },
   {
     data: "2026-11-13", ora: "21:00",

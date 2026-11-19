@@ -21,7 +21,7 @@ window.RP_EVIDENZA = [
     etichetta: "Petizione · Bonus mamme",
     titolo: "Firma anche tu",
     testo: "Raccogliamo le firme a sostegno degli emendamenti al bonus mamme, perché nessuna madre con tre o più figli riceva meno di oggi. Bastano 30 secondi.",
-    bottone: { testo: "Firma la petizione", link: "https://bit.ly/BONUSMAMME" },
+    bottone: { testo: "Firma la petizione", link: "https://forms.gle/dDHpY8NFya4AkyMU9" },
     secondario: { testo: "Leggi il comunicato", link: "documenti/testi/2026-11-12-comunicato-bonus-mamme.pdf" },
     immagine: "assets/evidenza/2026-11-petizione-bonus-mamme.jpg"
   }
