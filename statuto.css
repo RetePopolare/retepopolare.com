@@ -53,4 +53,4 @@
   .lett li{color:var(--ink);break-inside:avoid}
   .lt{color:var(--navy);font-size:11pt}
 }
-@media print{
+@media print{.st-foot .foot__sign{margin-top:22px}
