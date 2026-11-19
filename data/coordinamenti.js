@@ -32,7 +32,7 @@ window.RP_COORDINAMENTI = {
       coordinatore: { nome: "Maurizio", cognome: "Petulicchio", ruolo: "Coordinatore", foto: "assets/coordinatori/liguria.jpg" } },
     { id: "lazio", livello: "R", nome: "Lazio", geo: "Lazio", stato: "costituzione" },
     { id: "marche", livello: "R", nome: "Marche", geo: "Marche", stato: "eletto", eletto: "2026-11-17",
-      coordinatore: { nome: "Angelo", cognome: "Mucci", ruolo: "Coordinatore" } },
+      coordinatore: { nome: "Angelo", cognome: "Mucci", ruolo: "Coordinatore", foto: "assets/coordinatori/marche.jpg" } },
     { id: "piemonte", livello: "R", nome: "Piemonte", geo: "Piemonte", stato: "eletto", eletto: "2026-11-10",
       coordinatore: { nome: "Lorenzo", cognome: "Ricco", ruolo: "Coordinatore", foto: "assets/coordinatori/piemonte.jpg" } },
 
@@ -49,7 +49,7 @@ window.RP_COORDINAMENTI = {
     { id: "lecco", livello: "P", nome: "Lecco", geo: "Lecco", stato: "eletto", eletto: "2026-11-04",
       coordinatore: { nome: "Dario", cognome: "Perego", ruolo: "Coordinatore", foto: "assets/coordinatori/lecco.jpg" } },
     { id: "como", livello: "P", nome: "Como", geo: "Como", stato: "eletto", eletto: "2026-11-11",
-      coordinatore: { nome: "Mario", cognome: "Gorla", ruolo: "Coordinatore" } },
+      coordinatore: { nome: "Mario", cognome: "Gorla", ruolo: "Coordinatore", foto: "assets/coordinatori/como.jpg" } },
 
     { id: "milano", livello: "C", nome: "Città di Milano", geo: "Milano", lat: 45.4642, lon: 9.19, stato: "eletto", eletto: "2026-10-15",
       coordinatore: { nome: "Lorenzo", cognome: "Bruschi", ruolo: "Coordinatore", foto: "assets/coordinatori/milano.jpg" } },
