@@ -31,9 +31,9 @@ Nel sito, su WhatsApp e nelle newsletter si usano solo **link diretti** (per ese
 
 ## Aggiornare i Coordinamenti
 
-In `data/coordinamenti.js`: quando un'Assemblea elegge, cambiare `stato` in `"eletto"`, aggiungere `eletto` (data) e `coordinatore`. Un nuovo Coordinamento si aggiunge copiando un blocco; per i comunali servono anche `lat` e `lon`.
+Dal 19/11/2026 `data/coordinamenti.js` è un file generato: non si modifica a mano. Lo rigenera Claude dai dati della mappa dei Coordinamenti (progetto Claude, `claude/pipeline/mappa/coordinamenti.json`) con `claude/pipeline/sito/sito_coordinamenti.py`, a ogni export, gruppo aperto, Assemblea convocata o esito.
 
-La foto del Coordinatore è facoltativa: immagine quadrata in `assets/coordinatori/` e il percorso nel campo `foto`. Senza foto la scheda mostra le iniziali.
+La foto del Coordinatore è facoltativa: immagine quadrata in `assets/coordinatori/<id>.jpg` (per esempio `marche.jpg`). Lo script la aggancia da solo; senza foto la scheda mostra le iniziali.
 
 ## Modulo contatti
 
