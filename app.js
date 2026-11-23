@@ -270,9 +270,9 @@
   }).join("") : '<div class="empty">Stiamo preparando i prossimi appuntamenti. <a class="link" href="' + esc(CFG.newsletter) + '" target="_blank" rel="noopener">Iscriviti alla newsletter</a> per riceverli per primo.</div>';
 
   var years = past.map(function (e) { return e.data.slice(0, 4); }).filter(function (y, i, a) { return a.indexOf(y) === i; });
-  var yearSel = "tutti";
+  var yearSel = null; /* dal 23/11/2026 (Bombo): gli eventi passati si vedono solo dopo aver scelto «Tutti» o un anno */
   function renderPast() {
-    var list = past.filter(function (e) { return yearSel === "tutti" || e.data.slice(0, 4) === yearSel; });
+    var list = yearSel === null ? [] : past.filter(function (e) { return yearSel === "tutti" || e.data.slice(0, 4) === yearSel; });
     $("#evPast").innerHTML = list.map(function (e) {
       return '<button type="button" class="pc" data-ev="' + e._id + '"><div class="pc__img">' +
         (e.immagine ? '<img src="' + esc(e.immagine) + '" alt="" loading="lazy">' : genPoster(e)) + '</div><div class="pc__body">' +
@@ -281,8 +281,8 @@
     }).join("");
     $$("#evPast .pc").forEach(function (b) { b.addEventListener("click", function () { openEvent(b.getAttribute("data-ev")); }); });
   }
-  $("#evYears").innerHTML = ["tutti"].concat(years).map(function (y) { return '<button type="button" data-y="' + y + '" aria-pressed="' + (y === "tutti") + '">' + (y === "tutti" ? "Tutti" : y) + "</button>"; }).join("");
-  $$("#evYears button").forEach(function (b) { b.addEventListener("click", function () { yearSel = b.getAttribute("data-y"); $$("#evYears button").forEach(function (x) { x.setAttribute("aria-pressed", x === b); }); renderPast(); }); });
+  $("#evYears").innerHTML = ["tutti"].concat(years).map(function (y) { return '<button type="button" data-y="' + y + '" aria-pressed="false" aria-controls="evPast">' + (y === "tutti" ? "Tutti" : y) + "</button>"; }).join("");
+  $$("#evYears button").forEach(function (b) { b.addEventListener("click", function () { var y = b.getAttribute("data-y"); yearSel = yearSel === y ? null : y; $$("#evYears button").forEach(function (x) { x.setAttribute("aria-pressed", x.getAttribute("data-y") === yearSel); }); renderPast(); }); });
   renderPast();
 
   function openEvent(id, push) {

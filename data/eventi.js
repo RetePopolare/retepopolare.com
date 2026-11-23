@@ -36,7 +36,7 @@ window.RP_EVENTI = [
   {
     data: "2026-11-18", ora: "18:15",
     titolo: "Giovani: costruire invece di distruggere?",
-    sottotitolo: "Un confronto sul mondo dei giovani e sulle risposte che scuola, istituzioni e territorio possono dare.",
+    sottotitolo: "Un confronto sul mondo dei giovani e sulle risposte che scuola, istituzioni e territorio possono dare. Ne ha scritto VareseNews il 19 novembre.",
     territorio: "Varese",
     luogo: "Villa Recalcati, Sala Ambrosoli, piazza Libertà 1, Varese",
     relatori: [
