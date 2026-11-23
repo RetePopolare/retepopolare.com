@@ -24,6 +24,8 @@ Sito statico: si carica così com'è su qualunque hosting (anche nella cartella 
 2. In `data/eventi.js` copiare un blocco `{ ... }`, incollarlo in cima all'elenco e cambiare i valori.
 3. Il sito mette da solo l'evento fra i **Prossimi appuntamenti** fino al giorno stesso e poi fra gli **Eventi passati**.
 
+I prossimi appuntamenti sono in ordine di data, dal più vicino (confermato da Bombo il 23/11/2026); gli eventi passati dal più recente.
+
 Dal 23/11/2026 in home si vedono solo i prossimi appuntamenti: gli eventi passati compaiono quando si tocca «Tutti» o un anno, e si richiudono toccando di nuovo lo stesso bottone. Il link diretto a un evento (`#evento-AAAA-MM-GG`) apre comunque la sua scheda.
 
 `pubblica: false` tiene un evento nascosto finché non lo si vuole pubblicare.

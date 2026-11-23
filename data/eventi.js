@@ -19,6 +19,29 @@
    ========================================================== */
 window.RP_EVENTI = [
   {
+    data: "2026-12-01", ora: "20:45",
+    titolo: "Crescere insieme. Giovani, adulti e mondo digitale",
+    sottotitolo: "Un incontro pubblico sul disagio giovanile, sulla responsabilità educativa degli adulti e sull'educazione digitale.",
+    territorio: "Saronno",
+    luogo: "Auditorium Aldo Moro, viale Santuario 13, Saronno",
+    relatori: [
+      "Introduce Eugenio Rossotti — Coordinatore Rete Popolare Provincia di Varese",
+      "Panel 1 · Adulti e giovani: ascoltare, accompagnare, recuperare",
+      "Matteo Fabris — Assessore alla Coesione sociale e tutela della persona, Comune di Saronno",
+      "Vito Palmulli — Presidente di Portofranco Saronno",
+      "Silvia Pontiroli — Cooperativa Dandelion",
+      "Vittorio Aceti e Giordano Melosi — A.S.D. Amor Sportiva",
+      "Modera Diego Riva — Rete Popolare Saronno",
+      "Panel 2 · Giovani e social: educare alla responsabilità digitale",
+      "Giuseppe Licata — Consigliere regionale della Lombardia",
+      "Gabriele Musarò — Dirigente scolastico IC Leonardo da Vinci, Saronno",
+      "Modera Lorena Ciapparelli — Coordinatrice Rete Popolare Saronno",
+      "Conclusioni di Lucio Bergamaschi — Rete Popolare"
+    ],
+    immagine: "assets/eventi/2026-12-01-saronno.jpg",
+    iscrizione: "https://docs.google.com/forms/d/e/1FAIpQLSfyTZSHg6xwxeVz_pekPNMRrbBSjJwzToASUicMYHApRFVeoQ/viewform"
+  },
+  {
     data: "2026-11-24", ora: "21:00",
     titolo: "Abbiamo ancora qualcosa da dirvi?",
     sottotitolo: "Un dialogo sui fatti di Milano del 17 ottobre e sulla responsabilità educativa degli adulti.",
