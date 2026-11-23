@@ -270,9 +270,9 @@
   }).join("") : '<div class="empty">Stiamo preparando i prossimi appuntamenti. <a class="link" href="' + esc(CFG.newsletter) + '" target="_blank" rel="noopener">Iscriviti alla newsletter</a> per riceverli per primo.</div>';
 
   var years = past.map(function (e) { return e.data.slice(0, 4); }).filter(function (y, i, a) { return a.indexOf(y) === i; });
-  var yearSel = null; /* dal 23/11/2026 (Bombo): gli eventi passati si vedono solo dopo aver scelto «Tutti» o un anno */
+  var yearSel = null; /* regola di Bombo del 23/11/2026: in home solo gli ultimi due eventi passati; gli altri si vedono scegliendo «Tutti» o un anno */
   function renderPast() {
-    var list = yearSel === null ? [] : past.filter(function (e) { return yearSel === "tutti" || e.data.slice(0, 4) === yearSel; });
+    var list = yearSel === null ? past.slice(0, 2) : past.filter(function (e) { return yearSel === "tutti" || e.data.slice(0, 4) === yearSel; });
     $("#evPast").innerHTML = list.map(function (e) {
       return '<button type="button" class="pc" data-ev="' + e._id + '"><div class="pc__img">' +
         (e.immagine ? '<img src="' + esc(e.immagine) + '" alt="" loading="lazy">' : genPoster(e)) + '</div><div class="pc__body">' +

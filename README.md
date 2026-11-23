@@ -30,6 +30,8 @@ Dal 23/11/2026 in home si vedono solo i prossimi appuntamenti: gli eventi passat
 
 `pubblica: false` tiene un evento nascosto finché non lo si vuole pubblicare.
 
+Regola del 23/11/2026: in home, sotto «Gli eventi passati», compaiono solo i due più recenti; tutti gli altri si vedono con i bottoni «Tutti» o dell'anno. Non c'è niente da fare a mano: il sito sceglie da solo in base alla data.
+
 ## Regola per i link (dal 19/11/2026)
 
 Nel sito, su WhatsApp e nelle newsletter si usano solo **link diretti** (per esempio `https://forms.gle/...`), mai link accorciati con Bitly. Dal telefono Bitly mostra una pagina di passaggio con pubblicità ingannevoli («Verifica il tuo account», «Apri») prima di arrivare al modulo.
