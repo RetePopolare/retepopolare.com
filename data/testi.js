@@ -17,13 +17,6 @@
    ========================================================== */
 window.RP_TESTI = [
   {
-    data: "2026-11-19", tipo: "Rassegna stampa",
-    titolo: "A Varese un dialogo tra generazioni per affrontare le fragilità dei ragazzi",
-    autore: "Redazione VareseNews", fonte: "VareseNews",
-    sintesi: "La cronaca del nostro incontro del 18 novembre a Villa Recalcati: studenti, scuola, servizi sociali e terzo settore sulle fragilità dei ragazzi.",
-    link: "https://www.varesenews.it/2026/11/a-varese-un-dialogo-tra-generazioni-per-affrontare-le-fragilita-dei-ragazzi/2743687/"
-  },
-  {
     data: "2026-11-18", tipo: "Articolo",
     titolo: "Bonus mamme, chi ha più figli non può essere chi perde",
     autore: "Filippo Campiotti", fonte: "Tempi",
