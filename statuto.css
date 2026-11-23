@@ -53,4 +53,7 @@
   .lett li{color:var(--ink);break-inside:avoid}
   .lt{color:var(--navy);font-size:11pt}
 }
-@media print{.st-foot .foot__sign{margin-top:22px}
+.st-foot .foot__sign{margin-top:22px}
+.st-cover__t--long{font-size:clamp(58px,10.5vw,150px)}
+.lett--dash .lt{font-size:15px}
+@media print{.st-cover__t--long{font-size:96pt}}

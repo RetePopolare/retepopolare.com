@@ -10,7 +10,8 @@ Sito statico: si carica così com'è su qualunque hosting (anche nella cartella 
 | `statuto.html` | Lo Statuto in versione grafica, leggibile online |
 | `documenti/Statuto-Rete-Popolare.pdf` | Lo Statuto in PDF, nello stesso stile |
 | `documenti/RP-Rendiconto-2025-2026.pdf`, `documenti/20251124_103816.pdf` | I rendiconti, **identici agli originali** pubblicati finora |
-| `documenti/Regolamento-di-Attuazione-dellArt.15-Consulta-Territoriale.pdf` | Il Regolamento, identico all'originale |
+| `regolamento.html` | Il Regolamento dei Coordinamenti (art. 15) in versione grafica, come lo Statuto |
+| `documenti/Regolamento-Coordinamenti-Rete-Popolare.pdf` | Il Regolamento in PDF, nello stesso stile |
 | `data/eventi.js` | **Elenco degli eventi** |
 | `data/coordinamenti.js` | **Elenco dei Coordinamenti e dei Coordinatori** |
 | `data/config.js` | Link esterni (Yapla, newsletter, community, social) e modulo contatti |
@@ -42,9 +43,9 @@ Il vecchio modulo era WPForms, cioè un plugin di WordPress: su un sito statico 
 - un **Google Apps Script** nel Workspace di RP che inoltra a info@ (nessun servizio esterno);
 - **FormSubmit**: `https://formsubmit.co/ajax/info@retepopolare.com` (al primo invio arriva a info@ una mail di attivazione da confermare).
 
-## Rigenerare il PDF dello Statuto
+## Rigenerare il PDF dello Statuto e del Regolamento
 
-Aprire `statuto.html` in Chrome, Stampa → Salva come PDF, formato A4, margini predefiniti, «Grafica di sfondo» attiva.
+Aprire `statuto.html` (o `regolamento.html`) in Chrome, Stampa → Salva come PDF, formato A4, margini predefiniti, «Grafica di sfondo» attiva.
 
 ## Il nostro giudizio
 `data/testi.js`: comunicati, documenti di giudizio, articoli e volantini, in alto i più recenti.
