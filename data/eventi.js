@@ -80,7 +80,8 @@ window.RP_EVENTI = [
     territorio: "Online",
     luogo: "Incontro online su Zoom",
     relatori: ["Valentina Castaldini — Consigliere regionale dell'Emilia-Romagna"],
-    immagine: "assets/eventi/2026-11-13-liguria.jpg"
+    immagine: "assets/eventi/2026-11-13-liguria.jpg",
+    video: "https://www.youtube.com/watch?v=8Ofl4jp-sE4"
   },
   {
     data: "2026-11-07", ora: "10:30",

@@ -5,6 +5,7 @@
    senza, il riquadro mostra solo il titolo). In alto i più recenti.
    ========================================================== */
 window.RP_VIDEO = [
+  { id: "8Ofl4jp-sE4", data: "2026-11-17", titolo: "Fine vita: la libertà e il limite — Rete Popolare Liguria incontra Valentina Castaldini" },
   { id: "TCm55iOZ3uA", data: "2026-11-05", titolo: "Ucraina: difendere la vita, custodire la speranza" },
   { id: "YJcYlRq3hpM", data: "2026-09-16", titolo: "La libertà e il limite — riflessioni sul suicidio medicalmente assistito" },
   { id: "HGCsTFdq-ts", data: "2026-06-05", titolo: "Chi decide davvero? Disuguaglianze economiche e crisi della democrazia" },
