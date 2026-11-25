@@ -55,6 +55,8 @@ window.RP_EVENTI = [
     ],
     immagine: "assets/eventi/2026-11-24-milano.jpg",
     iscrizione: "https://forms.gle/5NZw1YJVbdtVx4qC6"
+,
+    video: "https://www.youtube.com/watch?v=PyXTLDoXdtA"
   },
   {
     data: "2026-11-18", ora: "18:15",
@@ -205,6 +207,7 @@ window.RP_EVENTI = [
     titolo: "Il prezzo della pace",
     sottotitolo: "La prima Assemblea di Rete Popolare.",
     territorio: "Milano",
-    luogo: "CAM Garibaldi, Chiostro Bramantesco, corso Garibaldi 27, Milano"
+    luogo: "CAM Garibaldi, Chiostro Bramantesco, corso Garibaldi 27, Milano",
+    video: "https://www.youtube.com/watch?v=GOtb_xir2wI"
   }
 ];
