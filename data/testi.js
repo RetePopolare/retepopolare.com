@@ -17,6 +17,13 @@
    ========================================================== */
 window.RP_TESTI = [
   {
+    data: "2026-11-27", tipo: "Articolo",
+    titolo: "E gli adulti cosa hanno da dire ai giovani?",
+    autore: "Massimiliano Bombonati", fonte: "Tempi",
+    sintesi: "Un mese dopo piazza Duomo, la cronaca della nostra serata a Milano con Franco Nembrini e Carlo Carabelli: l'educazione chiede adulti che siano loro stessi una proposta.",
+    link: "https://www.tempi.it/e-gli-adulti-cosa-hanno-da-dire-ai-giovani/"
+  },
+  {
     data: "2026-11-18", tipo: "Articolo",
     titolo: "Bonus mamme, chi ha più figli non può essere chi perde",
     autore: "Filippo Campiotti", fonte: "Tempi",
